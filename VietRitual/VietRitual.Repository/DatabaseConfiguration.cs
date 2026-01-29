@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using VietRitual.Data.Entities;
@@ -13,6 +14,10 @@ namespace VietRitual.Repository
 			// Register DbContext
 			services.AddDbContext<VietRitualDBContext>(options =>
 				options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+			services.AddIdentity<User, IdentityRole>()
+			  .AddEntityFrameworkStores<VietRitualDBContext>()
+			  .AddDefaultTokenProviders();
 
 			return services;
 		}

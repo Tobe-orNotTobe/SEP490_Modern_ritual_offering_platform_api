@@ -5,7 +5,7 @@ using VietRitual.Data.Entities;
 
 namespace VietRitual.Data.Models;
 
-public partial class VietRitualDBContext : IdentityDbContext<User, IdentityRole, string>
+public class VietRitualDBContext : IdentityDbContext<User, IdentityRole, string>
 {
     public VietRitualDBContext(DbContextOptions<VietRitualDBContext> options) : base(options)
 	{

@@ -24,11 +24,11 @@
 
 		public bool? IsVendor { get; set; }
 
-		public string ShopName { get; set; }
+		public string? ShopName { get; set; }
 
-		public string BusinessLicenseNo { get; set; }
+		public string? BusinessLicenseNo { get; set; }
 
-		public string VerificationStatus { get; set; }
+		public string? VerificationStatus { get; set; }
 
 		public decimal? RatingAvg { get; set; }
 
