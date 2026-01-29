@@ -1,0 +1,121 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "VietRitualDBContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Entities",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "VietRitual.Data",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[CeremonyCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CulturalGuideline]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DeliveryFeeRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Notification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Order]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Package]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PackageVariant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Payment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RefundRequest]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Review]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Transaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[User]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserProfile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Wallet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WithdrawalRequest]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}

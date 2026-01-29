@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietRitual.Common", "VietRitual.Common\VietRitual.Common.csproj", "{49399CB3-2B21-4854-8CD1-7C08624EBB1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietRitual.Data", "VietRitual.Data\VietRitual.Data.csproj", "{7844FD24-9995-425C-B75F-1B17D649AD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietRitual.Repository", "VietRitual.Repository\VietRitual.Repository.csproj", "{D6DB5611-F8A9-498B-B897-BAEE2C93C6A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietRitual.Service", "VietRitual.Service\VietRitual.Service.csproj", "{D0DC41E6-AFCD-47B6-A6F7-C46EE803689E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietRitual.API", "VietRitual.API\VietRitual.API.csproj", "{D47C222B-42EC-415B-94E6-7049F4EA1F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49399CB3-2B21-4854-8CD1-7C08624EBB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49399CB3-2B21-4854-8CD1-7C08624EBB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49399CB3-2B21-4854-8CD1-7C08624EBB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49399CB3-2B21-4854-8CD1-7C08624EBB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7844FD24-9995-425C-B75F-1B17D649AD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7844FD24-9995-425C-B75F-1B17D649AD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7844FD24-9995-425C-B75F-1B17D649AD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7844FD24-9995-425C-B75F-1B17D649AD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DB5611-F8A9-498B-B897-BAEE2C93C6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DB5611-F8A9-498B-B897-BAEE2C93C6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DB5611-F8A9-498B-B897-BAEE2C93C6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DB5611-F8A9-498B-B897-BAEE2C93C6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DC41E6-AFCD-47B6-A6F7-C46EE803689E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DC41E6-AFCD-47B6-A6F7-C46EE803689E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DC41E6-AFCD-47B6-A6F7-C46EE803689E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DC41E6-AFCD-47B6-A6F7-C46EE803689E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47C222B-42EC-415B-94E6-7049F4EA1F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47C222B-42EC-415B-94E6-7049F4EA1F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47C222B-42EC-415B-94E6-7049F4EA1F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47C222B-42EC-415B-94E6-7049F4EA1F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
